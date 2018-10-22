@@ -8,7 +8,7 @@ var Contact = React.createClass({
         React.createElement('div', {className: 'contactItem'},
           React.createElement('img', {
             className: 'contactImage',
-            src: 'https://cdn.pixabay.com/photo/2014/10/19/04/59/air-494020_1280.jpg'
+            src: 'https://cdn.pixabay.com/photo/2016/11/14/17/39/person-1824144_960_720.png'
           }),
           React.createElement('p', {className: 'contactLabel'}, 'Imię: ' + this.props.item.firstName),
           React.createElement('p', {className: 'contactLabel'}, 'Nazwisko: ' + this.props.item.lastName),
